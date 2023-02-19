@@ -7,7 +7,6 @@ import { useAuth } from '../../hooks/useAuth'
 export default function Login() {
   const { user } = useAuth()
 
-  console.log(user)
   return (
     <Flex>
       <Flex
